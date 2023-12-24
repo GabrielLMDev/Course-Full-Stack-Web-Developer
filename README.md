@@ -1,5 +1,6 @@
 Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps
 BY: Dr. Angela Yu - Developer and Lead Instructor
+
 Student: GabrielLMDev
 
 Throughout this comprehensive course, we cover a massive amount of tools and technologies, including:
