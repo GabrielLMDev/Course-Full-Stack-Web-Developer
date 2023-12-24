@@ -5,8 +5,8 @@ BY: Dr. Angela Yu - Developer and Lead Instructor
 Student: GabrielLMDev
 
 Throughout this comprehensive course, we cover a massive amount of tools and technologies, including:
-Front-End Web Development
 
+-Front-End Web Development
 - HTML 5
 - CSS 3
 - Flexbox
