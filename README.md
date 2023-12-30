@@ -36,4 +36,4 @@ Throughout this comprehensive course, we cover a massive amount of tools and tec
 - Web3 Development on the Internet Computer
 - Blockchain technology
 - Token contract development
-NFT minting, buying and selling logic
+- NFT minting, buying and selling logic
