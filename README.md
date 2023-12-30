@@ -1,0 +1,39 @@
+Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps
+
+BY: Dr. Angela Yu/Developer and Lead Instructor
+
+Student: GabrielLMDev
+
+Throughout this comprehensive course, we cover a massive amount of tools and technologies, including:
+
+- Front-End Web Development
+- HTML 5
+- CSS 3
+- Flexbox
+- Grid
+- Bootstrap 5
+- Javascript ES6
+- DOM Manipulation
+- jQuery
+- Bash Command Line
+- Git, GitHub and Version Control
+- Backend Web Development
+- Node.js
+- NPM
+- Express.js
+- EJS
+- REST
+- APIs
+- Databases
+- SQL
+- PostgreSQL
+- Authentication
+- Firebase
+- React.js
+- React Hooks
+- Web Design
+- Deployment with GitHub Pages
+- Web3 Development on the Internet Computer
+- Blockchain technology
+- Token contract development
+NFT minting, buying and selling logic
