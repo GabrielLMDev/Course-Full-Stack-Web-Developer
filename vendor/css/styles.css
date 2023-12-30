@@ -17,7 +17,7 @@
   --font-small: 14px;
   --font-medium: 16px;
   --font-large: 20px;
-  --font-heading: 50px;
+  --font-heading: 40px;
 
   --h1-title: 50px;
   --h2-subtitle: 30px;
@@ -150,4 +150,48 @@ ol {
 
 li {
   margin-bottom: 0.5rem;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #7b7b7b;
+  text-decoration: underline;
+}
+
+a:not([href]):not([class]) {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+}
+
+.card-image {
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  padding: 1rem 1rem 1rem;
+  width: calc(50% - 1rem);
+}
+
+img {
+  width: 50%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  border-radius: 50px;
 }
