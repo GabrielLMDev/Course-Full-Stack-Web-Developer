@@ -29,6 +29,7 @@
 body {
   font-family: var(--fontPrimary);
   margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -60,7 +61,7 @@ hr {
 .wrapper {
   padding: 5px 15px 5px;
   height: 88vh;
-  overflow-y: scroll;
+  overflow-y: auto;
 }
 
 .author-container {
@@ -96,7 +97,7 @@ hr {
   object-fit: contain;
 }
 
-.text-footer{
+.text-footer {
   font-size: var(--font-medium);
   color: #838383;
 }
@@ -112,7 +113,7 @@ hr {
   box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.container-footer{
+.container-footer {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
@@ -120,7 +121,7 @@ hr {
   justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  width: calc(100% - 20px); 
+  width: calc(100% - 20px);
 }
 
 .h1-title {
@@ -133,7 +134,20 @@ hr {
   font-size: var(--h2-subtitle);
 }
 
-.h3-content{
+.h3-content {
   font-weight: var(--fontWeight-500);
   font-size: var(--h3-content);
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+  font-weight: var(--fontWeight-400);
+  color: var(--fontColor-Black);
+}
+
+li {
+  margin-bottom: 0.5rem;
 }
