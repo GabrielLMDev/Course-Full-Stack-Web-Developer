@@ -4,6 +4,7 @@
 :root {
   --fontPrimary: "Poppins", sans-serif;
   --fontSecondary: "Montserrat", sans-serif;
+
   --fontWeight-100: 100;
   --fontWeight-200: 200;
   --fontWeight-400: 400;
@@ -12,35 +13,127 @@
   --fontWeight-700: 700;
   --fontWeight-800: 800;
   --fontWeight-900: 900;
+
+  --font-small: 14px;
+  --font-medium: 16px;
+  --font-large: 20px;
+  --font-heading: 50px;
+
+  --h1-title: 50px;
+  --h2-subtitle: 30px;
+  --h3-content: 25px;
+
   --fontColor-Black: #1c1c1c;
 }
 
 body {
   font-family: var(--fontPrimary);
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
 p {
   font-weight: var(--fontWeight-200);
   color: var(--fontColor-Black);
+  text-align: justify;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  border: 0;
+  border-top: 1px solid;
+  opacity: 0.25;
+}
+
+.wrapper {
+  padding: 5px 15px 5px;
+  height: 88vh;
+  overflow-y: scroll;
+}
+
+.author-container {
+  display: flex;
+}
+
+.data-author {
+  width: 50%;
+  margin-left: 10px;
+  align-self: center;
+  text-align: center;
+}
+
+.name-author {
+  font-weight: var(--fontWeight-400);
+  font-size: var(--font-heading);
+}
+
+.address-author {
+  font-weight: var(--fontWeight-500);
+  font-size: var(--font-large);
+  text-align: center;
+  margin: 0;
+}
+
+.description-author {
+  font-weight: var(--fontWeight-200);
+}
+
+.img-author {
+  width: 50%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+
+.text-footer{
+  font-size: var(--font-medium);
+  color: #838383;
 }
 
 .footer {
-  position: relative;
+  position: fixed;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
+  height: 12vh;
   background-color: #ffffff;
   padding-left: 10px;
   padding-right: 10px;
-  left: 0;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
 }
 
-.container {
+.container-footer{
   display: flex;
-  text-align: center;
   flex-wrap: wrap;
+  text-align: center;
   align-items: center;
   justify-content: space-between;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  padding-right: 1.2rem;
+  width: calc(100% - 20px); 
+}
+
+.h1-title {
+  font-weight: var(--fontWeight-500);
+  font-size: var(--h1-title);
+}
+
+.h2-subtitle {
+  font-weight: var(--fontWeight-200);
+  font-size: var(--h2-subtitle);
+}
+
+.h3-content{
+  font-weight: var(--fontWeight-500);
+  font-size: var(--h3-content);
 }
